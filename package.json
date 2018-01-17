@@ -1,0 +1,25 @@
+{
+  "name": "Musika",
+  "version": "1.0.0",
+  "description": "--- ## Backgorund  Musika is a rythm game that can be loosly compared to the famous [DanceDanceRevolution](https://en.wikipedia.org/wiki/Dance_Dance_Revolution). The goal of Musika is to hit the notes that fall from the top of the screen when they line up with their indication bar at the bottom of the screen. The notes will be in time with the song, usually lining up with the melody. Players will recieve points reflecting how accurately they hit the note.",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "howler": "^2.0.7",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timbak94/Musika.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timbak94/Musika/issues"
+  },
+  "homepage": "https://github.com/timbak94/Musika#readme"
+}
