@@ -6,11 +6,22 @@
     type = "text/css"
     href = "stylesheets/canvas.css" />
     <title></title>
-  </head>
-  <body>
-    <canvas id="game-canvas"></canvas>
-    <canvas id="visuals"></canvas>
     <script type="application/javascript" src="lib/keymaster.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
+  </head>
+  <body>
+    <section class="canvas-holder">
+      <canvas id="game-canvas"></canvas>
+      <canvas id="canvas-overlay"> </canvas>
+    </section>
+    <h1 class="score-board">
+      0
+     </h1>
+     <h1 class="combo-holder">
+       COMBO:
+       <h2 class="combo-board">
+         0
+       </h2>
+     </h1>
   </body>
 </html>

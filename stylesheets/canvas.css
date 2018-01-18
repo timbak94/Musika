@@ -1,11 +1,23 @@
 body {
-  height: 1000px;
-  background-image: url("http://www.powerpointhintergrund.com/uploads/pastel-sky-face-background-17.jpeg");
-  background-size: cover;
+  height: 980px;
+  background-image: url("https://78.media.tumblr.com/6f91f99ac5a5956d6ff7e40bfb78b960/tumblr_nmojjzrET01u2nohko1_1280.png");
+  background-repeat: repeat-x;
 }
 
 #game-canvas {
+  background-color: rgba(255,255,255,.3);
+  border: 1px solid black;
+  position: absolute;
+}
+
+#canvas-overlay {
+  position: relative;
+  border: 1px solid black;
+}
+
+.canvas-holder {
+  align-items: center;
+  width: 500px;
   display: block;
   margin: auto;
-  border: 1px solid black;
 }
