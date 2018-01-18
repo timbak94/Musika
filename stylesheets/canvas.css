@@ -1,11 +1,19 @@
+@font-face {
+  font-family: visitor;
+  src: url("../Images/visitor1.ttf");
+}
+
 body {
+  font-family: visitor;
+  color: white;
   height: 980px;
   background-image: url("https://78.media.tumblr.com/6f91f99ac5a5956d6ff7e40bfb78b960/tumblr_nmojjzrET01u2nohko1_1280.png");
   background-repeat: repeat-x;
 }
 
 #game-canvas {
-  background-color: rgba(255,255,255,.3);
+  background: linear-gradient(179deg, #ddfffc, #fcbbff);
+
   border: 1px solid black;
   position: absolute;
 }
@@ -16,6 +24,7 @@ body {
 }
 
 .canvas-holder {
+  padding-top: 20px;
   align-items: center;
   width: 500px;
   display: block;
