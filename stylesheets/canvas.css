@@ -3,21 +3,18 @@
   src: url("../Images/visitor1.ttf");
 }
 
-@-webkit-keyframes slide {
-    from { background-position: 0 0; }
-    to { background-position: 0 400px; }
-}
-
 body {
+  display: flex;
   font-family: visitor;
   color: white;
   height: 980px;
   background-image: url("https://78.media.tumblr.com/6f91f99ac5a5956d6ff7e40bfb78b960/tumblr_nmojjzrET01u2nohko1_1280.png");
   background-repeat: repeat-x;
+  justify-content: space-between;
 }
 
 #game-canvas {
-  background-image: url("../Images/purple_fall.png");
+  background-color: rgba(255,255,255,.2);
   border: 1px solid black;
   position: absolute;
   -webkit-animation: slide 30s linear infinite;
@@ -33,5 +30,15 @@ body {
   align-items: center;
   width: 500px;
   display: block;
-  margin: auto;
+}
+
+#cheerleader {
+}
+
+.dance {
+  transform: scaleX(-1);
+}
+
+.score-holder {
+  font-size: 40px;
 }

@@ -5,24 +5,33 @@
     <link rel = "stylesheet"
     type = "text/css"
     href = "stylesheets/canvas.css" />
-    <link rel="stylesheet" href="animate.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <title>MUSIKA</title>
     <script type="application/javascript" src="lib/keymaster.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
   </head>
   <body>
-    <section class="canvas-holder">
+
+    <section class="score-holder">
+      <h1 class="score-board">
+        0
+      </h1>
+      <h1 class="combo-holder">
+        COMBO:
+        <h2 class="combo-board">
+          0
+        </h2>
+      </h1>
+    </section>
+
+    <section class="canvas-holder animated fadeIn">
       <canvas id="game-canvas"></canvas>
       <canvas id="canvas-overlay"> </canvas>
     </section>
-    <h1 class="score-board">
-      0
-     </h1>
-     <h1 class="combo-holder">
-       COMBO:
-       <h2 class="combo-board">
-         0
-       </h2>
-     </h1>
+
+    <secetion class="cheerleader-container">
+      <img src="Images/dancers.jpg" id="cheerleader">
+    </section>
+
   </body>
 </html>
