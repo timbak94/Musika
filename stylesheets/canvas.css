@@ -3,6 +3,11 @@
   src: url("../Images/visitor1.ttf");
 }
 
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: 0 400px; }
+}
+
 body {
   font-family: visitor;
   color: white;
@@ -12,10 +17,10 @@ body {
 }
 
 #game-canvas {
-  background: linear-gradient(179deg, #ddfffc, #fcbbff);
-
+  background-image: url("../Images/purple_fall.png");
   border: 1px solid black;
   position: absolute;
+  -webkit-animation: slide 30s linear infinite;
 }
 
 #canvas-overlay {
