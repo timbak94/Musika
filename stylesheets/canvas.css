@@ -32,11 +32,19 @@ body {
   display: block;
 }
 
-#cheerleader {
+.cheerleader {
+  background-color: transparent;
+  width: 150px;
+  height: auto;
 }
 
-.dance {
-  transform: scaleX(-1);
+.cheerleader-container {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  height: 175px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, .3)
 }
 
 .score-holder {
