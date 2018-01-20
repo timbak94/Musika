@@ -11,36 +11,41 @@
     <script type="application/javascript" src="lib/bundle.js"></script>
   </head>
   <body>
-    <section class="gen-info">
-      <h1> MUSIKA </h1>
-      <h3> made by tim bak <h3>
-      <h3> song: pixel galaxy by ujico</h3>
-    </section>
+    <section class="main">
+      <section class="gen-info">
+        <h1> MUSIKA </h1>
+        <h3> made by tim bak <h3>
+        <h3> song: pixel galaxy by ujico</h3>
+      </section>
 
-    <section class="canvas-holder animated fadeIn">
       <section class="menu">
+        <h2>Welcome to MUSIKA</h2>
+        <h2>Choose a difficulty:<h2>
+          <ul>
+            <li>NORMAL</li>
+            <li>HARD</li>
+          </ul>
         <h1 id="play"> Start Song! </h1>
       </section>
-      <img src="Images/chibimiku1.jpeg" class=" hidden miku animated bounceInUp">
-      <canvas id="game-canvas">
-      </canvas>
-      <canvas id="canvas-overlay"> </canvas>
-      <h1 class="animated shake miss hidden"> MISS... </h1>
-    </section>
-
-    <section class="score-holder">
-      <h1 class="score-board">
-        SCORE: 0
-      </h1>
-      <h1 class="combo-board">
-        COMBO: 0
-      </h1>
-
-      <secetion class="cheerleader-container">
-        <img src="Images/miku_dance.gif" class="animated slideInRight cheerleader">
+      <section class="canvas-holder hidden">
+        <img src="Images/chibimiku1.jpeg" class=" hidden miku animated bounceInUp">
+        <canvas id="game-canvas">
+        </canvas>
+        <canvas id="canvas-overlay" > </canvas>
+        <h1 class="animated shake miss hidden"> MISS... </h1>
       </section>
-    </section>
 
+      <section class="score-holder">
+        <h1 class="score-board">
+          SCORE: 0
+        </h1>
+        <h1 class="combo-board">
+          COMBO: 0
+        </h1>
 
+        <secetion class="cheerleader-container">
+          <img src="Images/miku_dance.gif" class="hidden animated slideInRight cheerleader">
+        </section>
+      </section>
   </body>
 </html>
