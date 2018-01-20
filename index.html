@@ -11,11 +11,21 @@
     <script type="application/javascript" src="lib/bundle.js"></script>
   </head>
   <body>
-
+    <section class="gen-info">
+      <h1> MUSIKA </h1>
+      <h3> made by tim bak <h3>
+      <h3> song: pixel galaxy by ujico</h3>
+    </section>
 
     <section class="canvas-holder animated fadeIn">
-      <canvas id="game-canvas"></canvas>
+      <section class="menu">
+        <h1 id="play"> Start Song! </h1>
+      </section>
+      <img src="Images/chibimiku1.jpeg" class=" hidden miku animated bounceInUp">
+      <canvas id="game-canvas">
+      </canvas>
       <canvas id="canvas-overlay"> </canvas>
+      <h1 class="animated shake miss hidden"> MISS... </h1>
     </section>
 
     <section class="score-holder">
@@ -27,6 +37,7 @@
       </h1>
 
       <secetion class="cheerleader-container">
+        <img src="Images/miku_dance.gif" class="animated slideInRight cheerleader">
       </section>
     </section>
 

@@ -33,20 +33,32 @@ body {
 }
 
 .cheerleader {
-  background-color: transparent;
-  width: 150px;
+  width: 300px;
   height: auto;
 }
 
 .cheerleader-container {
-  display: flex;
-  justify-content: space-between;
-  width: 500px;
-  height: 175px;
-  padding: 10px;
   background-color: rgba(255, 255, 255, .3)
 }
 
 .score-holder {
+  width: 400px;
   font-size: 40px;
+}
+
+.miss {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.miku {
+  opacity: .7 ;
+  width: 400px;
+  height: auto;
+  position: absolute;;
 }
