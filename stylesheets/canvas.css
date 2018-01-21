@@ -89,6 +89,10 @@ body {
   position: relative;
 }
 
+.gen-info {
+  width: 350px;
+}
+
 .gen-info h1 {
   font-size: 100px;
 }

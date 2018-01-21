@@ -16,15 +16,28 @@
         <h1> MUSIKA </h1>
         <h3> made by tim bak <h3>
         <h3> song: pixel galaxy by ujico</h3>
+        <p> * because of different processing powers in different machines, you may need to adjust the visual offset. if none of the presets work, then unfortunately, you can't play synched with the music. Sorry >.<;; </p>
       </section>
 
       <section class="menu">
         <h2>Welcome to MUSIKA</h2>
         <h2>Choose a song:<h2>
-          <ul>
-            <li>ALIEN ALIEN (EASIER...but weirder)</li>
-            <li>PIXEL GALAXY (HARDER)</li>
-          </ul>
+        <ul>
+          <li>ALIEN ALIEN (EASIER...but weirder)</li>
+          <li>PIXEL GALAXY (HARDER)</li>
+        </ul>
+        <h2> Visual offset* </h2>
+        <input type="range" min="1" max="5" value="1" list="tickmarks" id="offset">
+        <datalist id="tickmarks">
+          <option value="0" label="0"></option>
+          <option value="1" label="1"></option>
+          <option value="2" label="2"></option>
+          <option value="3" label="3"></option>
+          <option value="4" label="4"></option>
+        </datalist>
+
+
+
         <h1 id="play"> Start Song! </h1>
       </section>
       <section class="canvas-holder hidden">
