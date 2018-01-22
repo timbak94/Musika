@@ -14,20 +14,19 @@
     <section class="main">
       <section class="gen-info animated fadeIn">
         <h1> MUSIKA </h1>
+        <h3><a href="#">REPO</a></h3>
         <h3> made by tim bak <h3>
+        <h3><a href="#">GITHUB</a></h3>
+        <h3><a href="#">LINKEDIN</a></h3>
         <h3> song: pixel galaxy by ujico</h3>
-        <p> * because of different processing powers in different machines, you may need to adjust the visual offset. if none of the presets work, then unfortunately, you can't play synched with the music. Sorry >.<;; </p>
       </section>
 
       <section class="menu">
         <h2>Welcome to MUSIKA</h2>
-        <h2>Choose a song:<h2>
-        <ul>
-          <li>ALIEN ALIEN (EASIER...but weirder)</li>
-          <li>PIXEL GALAXY (HARDER)</li>
-        </ul>
-        <h2> Visual offset* </h2>
-        <input type="range" min="1" max="9" value="1" list="tickmarks" id="offset">
+
+        <p> Because of different processing powers in different machines, you may need to adjust the visual offset. if none of the presets work, then unfortunately, you can't play synched with the music. </p>
+        <h2> Visual Offset: </h2> <h3 id="offset-value">0</h3> 
+        <input type="range" min="0" max="13" value="0" list="tickmarks" id="offset">
         <datalist id="tickmarks">
           <option value="0" label="0"></option>
           <option value="1" label="1"></option>
@@ -39,6 +38,10 @@
           <option value="7" label="7"></option>
           <option value="8" label="8"></option>
           <option value="9" label="9"></option>
+          <option value="10" label="10"></option>
+          <option value="11" label="11"></option>
+          <option value="12" label="12"></option>
+          <option value="13" label="13"></option>
         </datalist>
 
 
@@ -65,5 +68,12 @@
           <img src="Images/miku_dance.gif" class="hidden animated slideInRight cheerleader">
         </section>
       </section>
+
+      <section class="modalscreen">
+        <section class="gameover">
+
+        </section>
+      </section>
+
   </body>
 </html>
