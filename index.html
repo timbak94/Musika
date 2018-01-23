@@ -24,6 +24,11 @@
       <section class="menu">
         <h2>Welcome to MUSIKA!</h2>
         <h2>Hit the S, D, J and K button when the song and note align!</h2>
+        <ul id="song-select"> Choose a song:
+          <li id="ramune"> < Ramune (Easy) > </li>
+          <li id="pixel-galaxy" class="chosen">  < Pixel Galaxy (Hard) ></li>
+        </ul>
+
 
         <p> Because of different processing powers in different machines, you may need to adjust the visual offset. if none of the presets work, then unfortunately, you can't play synched with the music. </p>
         <h2> Visual Offset: </h2> <h3 id="offset-value">0</h3>
@@ -62,6 +67,18 @@
 
 
         <h1 id="play"> Start Song! </h1>
+      </section>
+
+      <section id="result" class="menu hidden">
+        <section id="max-score">
+          <h1>Score: </h1>
+        </section>
+        <section id="rank">
+          <h2>Rank: </h2>
+          <h1> <h1>
+        </section>
+
+        <h2>Thanks for playing! To play again, refresh the page!</h2>
       </section>
       <section class="canvas-holder hidden">
         <img src="Images/chibimiku1.jpeg" class=" hidden miku animated bounceInUp">

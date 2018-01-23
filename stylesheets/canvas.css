@@ -98,6 +98,7 @@ body {
 }
 
 .menu h1 {
+  margin: 0px;
   cursor: pointer;
   font-size: 70px;
 }
@@ -128,4 +129,21 @@ input {
 
 .modalscreen {
   display: none;
+}
+
+ul {
+  font-size: 30px;;
+}
+
+ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.chosen {
+  color: blue;
+}
+
+#max-score {
+  width: 460px;
 }
